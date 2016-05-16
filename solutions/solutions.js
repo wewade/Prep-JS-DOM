@@ -63,7 +63,6 @@ for(var i = 0; i<getBuckets.length; i++){
 
 Declare a variable named changeList and assign it to the getElementsByTagName method.
 */
-
 var changeList = document.getElementsByTagName('li');
 changeList[0].innerHTML = "I'm coming for you Felix!";
 
