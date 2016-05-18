@@ -4,7 +4,7 @@ window.onload = function(){
 var el = document.createElement('h1'); //creating a "h1" element (h1 heading)
 el.id = "headline"; //creating an identifier for the 'h1' element
 el.innerHTML = "Welcome to Tacocat's internet page."; //adding content to the h1 element
-container.appendChild(createElement); //adds the h1 element to the container div element.
+container.appendChild(el); //adds the h1 element to the container div element.
 
 //Exercise 1: 
 /*Declare a variable named catBox and assign its value with the createElement method that will create a 'div' element. Give this 'div' element an id of "meow". 
