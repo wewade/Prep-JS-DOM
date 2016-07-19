@@ -20,10 +20,7 @@ element.id sets or returns the identifier of an element
 element.innerHTML sets or returns the HTML element content of an element
 node.appendChild() is a method that appends a node as the last child of a node*/
 
-var catBox = document.createElement('div');
-catBox.id = "meow";
-catBox.innerHTML = "Overcome its fear of cucumbers!";
-bigBox.appendChild(catBox);
+
 
 //Exercise 2
 /*Declare a variable named catBox2 and create an element of your choice.  Give your element an id of "purr".  Next assign your element with the following text:
@@ -31,10 +28,6 @@ bigBox.appendChild(catBox);
 
 Append this newly created element to the bigBox element.*/
 
-var catBox2 = document.createElement('h2');
-catBox2.id = 'purr';
-catBox2.innerHTML = "Audition for the next musical.";
-bigBox.appendChild(catBox2);
 
 
 //Exercise 3
@@ -49,12 +42,7 @@ element.className is a property that sets or returns the class name of an elemen
 
 var getBuckets = ["Become more famous than that overrated fraud Garfield", "Visit Aoshima (aka Japan's Cat Island)", "Exhaust my entire 9 lives", "Pass DevLeague's coding challenge", "Become the next internet sensation"];
 
-for(var i = 0; i<getBuckets.length; i++){
-var bucketList = document.createElement('li');
-bucketList.className = 'daList';
-bucketList.innerHTML = getBuckets[i];
-buckets.appendChild(bucketList);
-}
+
 
 
 //Exerise 4
@@ -64,17 +52,11 @@ buckets.appendChild(bucketList);
 Declare a variable named changeList and assign it to the getElementsByTagName method.
 */
 
-var changeList = document.getElementsByTagName('li');
-changeList[0].innerHTML = "I'm coming for you Felix!";
 
 //Exercise 5
 /*Declare a variable named changeListAgain and assign it to the getElementsByClassName method. Update the current list to the following:
 
 "Exhaust my entire 9 lives" => "I got 1 life to live!"*/
-
-var changeListAgain = document.getElementsByClassName('daList');
-changeListAgain[2].innerHTML = "I got 1 life to live!";
-
 
 };
 
