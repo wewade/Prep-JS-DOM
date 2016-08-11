@@ -40,7 +40,7 @@ Append the "li" elements inside the "buckets" div that have been already created
 /*Helpful Hints:
 element.className is a property that sets or returns the class name of an element*/
 
-var getBuckets = ["Become more famous than that overrated fraud Trump", "Visit Aoshima (aka Japan's Cat Island)", "Exhaust my entire 9 lives", "Pass DevLeague's coding challenge", "Become the next internet sensation", "eat tacos", "drinks gin", "read books", "sleep", "Drink coffee", "eat chips"];
+var getBuckets = ["Become more famous than that overrated fraud Garfield", "Visit Aoshima (aka Japan's Cat Island)", "Exhaust my entire 9 lives", "Pass DevLeague's coding challenge", "Become the next internet sensation", "eat tacos", "drinks gin", "read books", "sleep", "Drink coffee", "eat chips"];
 
 
 
