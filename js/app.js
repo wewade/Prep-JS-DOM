@@ -14,7 +14,7 @@ Next, add the following text inside this newly created 'div' element:
 
 Append this 'div' element inside the "bigBox" div element that has already been created in the index.html file*/
 var catBox = document.createElement("div");
-catBox.id="meow";
+catBox.id= "meow";
 catBox.innerHTML = "Overcome its fear of cucumber!";
 bigBox.appendChild(catBox);
 
@@ -31,10 +31,10 @@ node.appendChild() is a method that appends a node as the last child of a node*/
 "Audition for the next musical."
 
 Append this newly created element to the bigBox element.*/
-var catBox2 =document.createElement("DevLeague");
-DevLeague.id="purr";
-DevLeague.innerHTML = "Audition for the next musical";
-bigBox.appendChild(DevLeague);
+var catBox2 = document.createElement("DevLeague");
+catBox2.id = "purr";
+catBox2.innerHTML = "Audition for the next musical.";
+bigBox.appendChild(catBox2);
 
 //Exercise 3
 /*Your objective is to display the following getBuckets array into the document. 
@@ -48,8 +48,17 @@ element.className is a property that sets or returns the class name of an elemen
 
 var getBuckets = ["Become more famous than that overrated fraud Garfield", "Visit Aoshima (aka Japan's Cat Island)", "Exhaust my entire 9 lives", "Pass DevLeague's coding challenge", "Become the next internet sensation", "eat tacos", "drinks gin", "read books", "sleep", "Drink coffee", "eat chips"];
 
+	for (var i = 0; i <getBuckets.length; i++) {  //for loop to display getbuckets array!//
+		
+	
+	var bucketList = document.createElement("li");
+	bucketList.className = "daList";
+	bucketList.innerHTML = getBuckets[i];  //This displays the getbuckets array//
+	buckets.appendChild(bucketList);
 
+	}
 
+	console.log(getBuckets[i]);
 //Exerise 4
 /*Our motivated Tacocat has been hard at work on its bucket list.  Update the current list to the following:
 "Become more famous than that overrated fraud Garfield" => "I'm coming for you Felix!"
