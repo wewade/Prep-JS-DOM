@@ -8,13 +8,17 @@ container.appendChild(el); //adds the h1 element to the container div element.
 
 //Exercise 1: 
 /*Declare a variable named catBox and assign its value with the createElement method that will create a 'div' element. Give this 'div' element an id of "meow". 
-
+	
 Next, add the following text inside this newly created 'div' element:
 "Overcome its fear of cucumbers!"
 
 Append this 'div' element inside the "bigBox" div element that has already been created in the index.html file*/
+var catBox = document.createElement("div");
+catBox.id="meow";
+catBox.innerHTML = "Overcome its fear of cucumber!";
+bigBox.appendChild(catBox);
 
-
+	
 /*Helpful Hints:
 document.createElement creates an Element node
 element.id sets or returns the identifier of an element
@@ -27,8 +31,10 @@ node.appendChild() is a method that appends a node as the last child of a node*/
 "Audition for the next musical."
 
 Append this newly created element to the bigBox element.*/
-
-
+var catBox2 =document.createElement("DevLeague");
+DevLeague.id="purr";
+DevLeague.innerHTML = "Audition for the next musical";
+bigBox.appendChild(DevLeague);
 
 //Exercise 3
 /*Your objective is to display the following getBuckets array into the document. 
