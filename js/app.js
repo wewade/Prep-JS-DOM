@@ -49,7 +49,7 @@ element.className is a property that sets or returns the class name of an elemen
 var getBuckets = ["Become more famous than that overrated fraud Garfield", "Visit Aoshima (aka Japan's Cat Island)", "Exhaust my entire 9 lives", "Pass DevLeague's coding challenge", "Become the next internet sensation", "eat tacos", "drinks gin", "read books", "sleep", "Drink coffee", "eat chips"];
 
 	for (var i = 0; i <getBuckets.length; i++) {  //for loop to display getbuckets array!//
-		
+		console.log(getBuckets[i]);
 	
 	var bucketList = document.createElement("li");
 	bucketList.className = "daList";
@@ -58,7 +58,7 @@ var getBuckets = ["Become more famous than that overrated fraud Garfield", "Visi
 
 	}
 
-	console.log(getBuckets[i]);
+	
 //Exerise 4
 /*Our motivated Tacocat has been hard at work on its bucket list.  Update the current list to the following:
 "Become more famous than that overrated fraud Garfield" => "I'm coming for you Felix!"
