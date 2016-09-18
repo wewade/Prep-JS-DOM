@@ -48,16 +48,16 @@ element.className is a property that sets or returns the class name of an elemen
 
 var getBuckets = ["Become more famous than that overrated fraud Garfield", "Visit Aoshima (aka Japan's Cat Island)", "Exhaust my entire 9 lives", "Pass DevLeague's coding challenge", "Become the next internet sensation", "eat tacos", "drinks gin", "read books", "sleep", "Drink coffee", "eat chips"];
 
-	for (var i = 0; i <getBuckets.length; i++) {  //for loop to display getbuckets array!//
+	for (var i = 0; i<getBuckets.length; i++){  
 		console.log(getBuckets[i]);
 	
 	var bucketList = document.createElement("li");
 	bucketList.className = "daList";
-	bucketList.innerHTML = getBuckets[i];  //This displays the getbuckets array//
+	bucketList.innerHTML = getBuckets[i];  
 	buckets.appendChild(bucketList);
 
 	}
-
+	
 	
 //Exerise 4
 /*Our motivated Tacocat has been hard at work on its bucket list.  Update the current list to the following:
@@ -68,9 +68,9 @@ Declare a variable named changeList and assign it to the getElementsByTagName me
 */
 	var changeList = document.getElementsByTagName("li");
 	
-	changeList[0].innerHTML = "I'm coming for you Felix"; //what is 
+	changeList[0].innerHTML = "I'm coming for you Felix";  
 
-
+			
 
 
 //Exercise 5
@@ -78,9 +78,9 @@ Declare a variable named changeList and assign it to the getElementsByTagName me
 
 "Exhaust my entire 9 lives" => "I got 1 life to live!"*/
 
-var changeListAgain =document.getElementsByClassName("daList");
+var changeListAgain = document.getElementsByClassName("daList");
 changeListAgain[2].innerHTML =  "I got 1 life to live!";
 
-
+	//console.log(chageListAgain[2]);?
 
 
